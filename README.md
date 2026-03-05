@@ -1,6 +1,6 @@
 # Infosys-Spring-Board-Internship
-Infosys Spring IT is a 8 weeks Internship Where We Get Training Under The Mentor -Mr Akshay Sir 
-Along with we Going To Work On Our Project
+Infosys Spring Board IT is a 8 weeks Internship Where We Get Training and Hands on Experience On Real World Project Exposer Under The Guidance of  The Mentor -Mr Akshay Sir 
+Along with We Going To Work On Our Project
 
 Project Name: Optimizing IT Support Team Performance Using Analytics
 
