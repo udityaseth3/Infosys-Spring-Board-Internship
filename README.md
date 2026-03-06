@@ -9,11 +9,14 @@ Traditional performance evaluation methods often rely on manual tracking or basi
 Therefore, there is a need to develop an analytics-driven approach that leverages data visualization, performance metrics, and predictive insights to optimize IT support team efficiency. By applying data analytics techniques, organizations can identify bottlenecks, forecast workload patterns, improve resource planning, enhance service delivery, and ultimately increase customer satisfaction.
 The problem addressed in this project is how to utilize analytics to measure, monitor, and improve IT support team performance in a systematic and data-driven manner. 
 
-Data Set Description - This project uses a synthetic IT Support Ticket dataset designed to simulate real-world customer support operations in a technology company. The dataset contains information about support tickets raised by customers for different products, along with details about ticket priority, resolution time, assigned engineers, and customer satisfaction scores.
-The purpose of this dataset is to analyze IT support team performance, ticket handling efficiency, and customer satisfaction trends.
+Data Set Description - 
 
 KPI - 
+
 DashBoard Description -
+
 Key Insight - 
+
 Recomendations -
+
 Tools Used - 
