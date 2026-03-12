@@ -9,22 +9,24 @@ Traditional performance evaluation methods often rely on manual tracking or basi
 Therefore, there is a need to develop an analytics-driven approach that leverages data visualization, performance metrics, and predictive insights to optimize IT support team efficiency. By applying data analytics techniques, organizations can identify bottlenecks, forecast workload patterns, improve resource planning, enhance service delivery, and ultimately increase customer satisfaction.
 The problem addressed in this project is how to utilize analytics to measure, monitor, and improve IT support team performance in a systematic and data-driven manner. 
 
-Data Set Description - | **Column Name**            | **Description**                                                                | **Data Type**    | **Example Value**  |
-| -------------------------- | ------------------------------------------------------------------------------ | ---------------- | ------------------ |
-| Ticket Number              | Unique identifier assigned to each IT support ticket                           | Numeric / String | 4123456789         |
-| Date Opened                | The date when the support ticket was created                                   | Date             | 2025-01-15         |
-| Product Category           | Category of the product for which the support request is raised                | Categorical      | Mobile Phones      |
-| Model Code                 | Model number of the product reported in the ticket                             | String           | SM-G998B           |
-| Ticket Status              | Current progress status of the support ticket                                  | Categorical      | In Progress        |
-| Priority                     | Priority level assigned to the ticket based on urgency                       | Categorical      | High               |
-| Assigned Team              | Support team responsible for handling the issue                                | Categorical      | Level1 Support     |
-| Time to Resolution (Hours) | Total time taken to resolve the issue measured in hours                        | Numeric          | 2.5                |
-| CSAT Score                 | Customer Satisfaction Score given by the customer after resolution (scale 1–5) | Numeric          | 5                  |
-| Resolution Status          | Indicates whether the issue was successfully resolved or not                   | Categorical      | Resolved           |
-| Contact Channel            | Channel used by the customer to report the issue                               | Categorical      | Phone              |
-| Symptom Description        | Short description of the problem reported by the customer                      | Text             | Phone won't charge |
-| Engineer ID                | Unique ID of the engineer who handled the ticket                               | String           | ENG045             |
-| SLA Violation              | Indicates whether the ticket exceeded the Service Level Agreement time limit   | Yes/No           | No                 |
+Data Set Description - 
+| Column Name                | Description                                                              | Data Type        | Example Value      |
+| :------------------------- | :----------------------------------------------------------------------- | :--------------- | :----------------- |
+| Ticket Number              | Unique identifier assigned to each IT support ticket                     | Numeric / String | 4123456789         |
+| Date Opened                | Date when the support ticket was created                                 | Date             | 2025-01-15         |
+| Product Category           | Category of the product for which support request is raised              | Categorical      | Mobile Phones      |
+| Model Code                 | Model number of the product reported in the ticket                       | String           | SM-G998B           |
+| Ticket Status              | Current progress status of the support ticket                            | Categorical      | In Progress        |
+| Priority                   | Priority level assigned to the ticket based on urgency                   | Categorical      | High               |
+| Assigned Team              | Support team responsible for handling the issue                          | Categorical      | Level1 Support     |
+| Time to Resolution (Hours) | Total time taken to resolve the issue measured in hours                  | Numeric          | 2.5                |
+| CSAT Score                 | Customer satisfaction score given by the customer after resolution (1–5) | Numeric          | 5                  |
+| Resolution Status          | Indicates whether the issue was resolved or unresolved                   | Categorical      | Resolved           |
+| Contact Channel            | Channel used by the customer to report the issue                         | Categorical      | Phone              |
+| Symptom Description        | Short description of the problem reported by the customer                | Text             | Phone won't charge |
+| Engineer ID                | Unique ID of the engineer who handled the ticket                         | String           | ENG045             |
+| SLA Violation              | Indicates whether the ticket exceeded SLA time limits                    | Yes / No         | No                 |
+
 
  Dataset Summary
 | **Attribute**      | **Details**                                            |
