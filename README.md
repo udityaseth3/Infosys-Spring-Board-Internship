@@ -10,22 +10,28 @@ Therefore, there is a need to develop an analytics-driven approach that leverage
 The problem addressed in this project is how to utilize analytics to measure, monitor, and improve IT support team performance in a systematic and data-driven manner. 
 
 Data Set Description - 
-| Column Name                | Description                                                              | Data Type        | Example Value      |
-| :------------------------- | :----------------------------------------------------------------------- | :--------------- | :----------------- |
-| Ticket Number              | Unique identifier assigned to each IT support ticket                     | Numeric / String | 4123456789         |
-| Date Opened                | Date when the support ticket was created                                 | Date             | 2025-01-15         |
-| Product Category           | Category of the product for which support request is raised              | Categorical      | Mobile Phones      |
-| Model Code                 | Model number of the product reported in the ticket                       | String           | SM-G998B           |
-| Ticket Status              | Current progress status of the support ticket                            | Categorical      | In Progress        |
-| Priority                   | Priority level assigned to the ticket based on urgency                   | Categorical      | High               |
-| Assigned Team              | Support team responsible for handling the issue                          | Categorical      | Level1 Support     |
-| Time to Resolution (Hours) | Total time taken to resolve the issue measured in hours                  | Numeric          | 2.5                |
-| CSAT Score                 | Customer satisfaction score given by the customer after resolution (1–5) | Numeric          | 5                  |
-| Resolution Status          | Indicates whether the issue was resolved or unresolved                   | Categorical      | Resolved           |
-| Contact Channel            | Channel used by the customer to report the issue                         | Categorical      | Phone              |
-| Symptom Description        | Short description of the problem reported by the customer                | Text             | Phone won't charge |
-| Engineer ID                | Unique ID of the engineer who handled the ticket                         | String           | ENG045             |
-| SLA Violation              | Indicates whether the ticket exceeded SLA time limits                    | Yes / No         | No                 |
+Column Name	Description
+ticket_id  |	Unique identifier for each support ticket (e.g., TCKT_000001)
+created_at |	Date when the ticket was created
+customer_id| Unique identifier for the customer raising the issue
+customer_segment| Segment type (e.g., individual, small_business, enterprise, education)
+channel	Communication| channel used (e.g., email, in_app, chat, phone_transcript)
+product_area|	Product/service area related to the issue (e.g., billing, login_auth, api_integration)
+issue_type|	Type of issue (e.g., account_access, bug, billing_problem, security_concern, feature_request)
+priority|	Urgency level of the ticket (e.g., low, medium, urgent)
+status|	Current ticket status (e.g., resolved, in_progress, closed_no_action)
+sla_plan|	SLA plan associated with the customer (e.g., standard, gold, platinum)
+initial_message|	First message from the customer describing the issue
+agent_first_response|	First response provided by the support agent
+agent_first_reply|	Timestamp or text of the agent’s first reply
+resolution_summary|	Notes summarizing how the issue was resolved
+resolution_time_hours|	Time taken to resolve the ticket (in hours)
+reopened	Indicator| if the ticket was reopened after resolution (Yes/No)
+customer_sentiment|	Sentiment expressed by the customer (e.g., positive, neutral, negative)
+csat_score	Customer| satisfaction score (numeric rating)
+has_attachment|	Whether the ticket included an attachment (Yes/No)
+platform|	Platform used by the customer (e.g., web, mobile)
+region|	Geographic region of the customer
 
 
  Dataset Summary
