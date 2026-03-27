@@ -47,11 +47,65 @@ Perfect — from the screenshots you shared, I can see the dataset structure cle
 
 
 KPI - 
+Average Resolution Time (hrs): 38.18
+Total Tickets: 791
+Reopened Tickets: 39
+Average CSAT Score: 2.17
+Resolved Tickets: 692
 
-DashBoard Description -
+DashBoard Description - 
+This dashboard provides a comprehensive overview of IT support ticket performance and customer satisfaction. It enables stakeholders to monitor operational efficiency, identify bottlenecks, and evaluate service quality across different dimensions such as:
+
+Channels (web, app, email, chat, phone)
+Issue Types (bug, feature request, performance, etc.)
+Priority Levels (low, medium, high, urgent)
+Customer Segments
+Regions
+Key Visualizations:
+Donut Chart: Ticket distribution by channel
+Waterfall Chart: Reopened tickets by issue type
+Pie Chart: Ticket status breakdown
+Line Chart: Resolution time trends by month
+Bar Charts: CSAT by channel & customer segment
+Tree Map: Ticket distribution by region and priority
+Table: Detailed ticket-level insights
+
+Interactive filters allow slicing data by priority, channel, and product area for deeper analysis.
+Regions 
 
 Key Insight - 
+📉 Low Customer Satisfaction: Average CSAT score is 2.17, indicating poor customer experience.
+⏱️ High Resolution Time: Average resolution time (~38 hours) suggests inefficiencies in handling tickets.
+🔁 Reopened Tickets: 39 tickets reopened — potential quality or incomplete resolution issues.
+📞 Channel Performance Variance: Some channels (e.g., chat/email) show lower CSAT compared to others.
+📅 Fluctuating Resolution Trends: Monthly resolution time is inconsistent, indicating unstable workload or process gaps.
+🌍 Regional Distribution: Certain regions (e.g., EU/NA) show higher ticket volumes, possibly needing more resources.
+⚠️ Priority Handling: High and urgent tickets may not be resolved proportionally faster.
 
 Recomendations -
+🚀 Improve First-Time Resolution
+Enhance knowledge base and agent training
+Implement better diagnostic workflows
+📊 Optimize High-Impact Channels
+Investigate low-performing channels (e.g., chat/email)
+Standardize response protocols
+⏳ Reduce Resolution Time
+Introduce SLA tracking dashboards
+Automate repetitive tasks
+🔁 Minimize Reopen Rate
+Conduct root cause analysis for reopened tickets
+Improve QA before ticket closure
+🎯 Priority-Based Routing
+Implement intelligent ticket routing for urgent/high priority issues
+😊 Enhance Customer Experience
+Collect detailed feedback
+Introduce post-resolution follow-ups
+🌐 Regional Resource Allocation
+Assign more agents to high-volume regions
+Adjust staffing based on demand trends
 
 Tools Used - 
+Power BI Desktop – Data visualization & dashboard creation
+DAX (Data Analysis Expressions) – KPI calculations and measures
+Power Query – Data cleaning and transformation
+Excel / CSV Dataset – Data source (synthetic IT support dataset)
